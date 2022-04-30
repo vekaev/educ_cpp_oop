@@ -1,14 +1,12 @@
-//
-//  main.cpp
-//  educ_cpp_oop
-//
-//  Created by Yevhenii Petrenko on 16.04.2022.
-//
-
+#include "l1.hpp"
+#include "hm1.hpp"
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+using namespace std;
+
+int main(int argc, const char *argv[])
+{
+    //  cout << "Homework" << endl;
+    //  l1();
+    hm1();
 }
