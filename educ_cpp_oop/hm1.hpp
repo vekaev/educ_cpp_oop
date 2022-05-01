@@ -10,8 +10,7 @@
 
 #include <stdio.h>
 
-class Number;
-// class FractionalNumber;
+
 
 void hm1();
 
