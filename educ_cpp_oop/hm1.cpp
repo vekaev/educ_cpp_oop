@@ -17,12 +17,12 @@ protected:
             d = _d;
         }
         
-        this->normalize();
+        normalize();
     }
 public:
     Number(int _n, int _d = 1)
     {
-        this->set(_n, _d);
+        set(_n, _d);
     }
 
     bool isInt()
@@ -32,7 +32,7 @@ public:
 
     void Print()
     {
-        if (this->isInt())
+        if (isInt())
             cout << n << endl;
         else
             if (n > d)
@@ -58,24 +58,24 @@ public:
         {
             int newN = n + num_n * d;
             
-            this->set(newN);
+            set(newN);
         }
         else
         {
             int newN = (n * num_d) + (num_n * d);
             int newD = d * num_d;
             
-            this->set(newN, newD);
+            set(newN, newD);
         }
     }
 
     void normalize()
     {
-        if (!this->isInt())
+        if (!isInt())
         {
             if (n == d && n != 1)
             {
-                this->set(1, 1);
+                set(1, 1);
             }
             // TODO: write more
         }
