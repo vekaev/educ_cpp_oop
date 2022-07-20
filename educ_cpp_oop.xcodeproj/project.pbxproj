@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		64220DCB280B175D00426E63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64220DCA280B175D00426E63 /* main.cpp */; };
+		6458B896281D729A00FE8307 /* hm1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6458B894281D729A00FE8307 /* hm1.cpp */; };
+		6458B899281D733500FE8307 /* l1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6458B897281D733500FE8307 /* l1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		64220DC7280B175D00426E63 /* educ_cpp_oop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = educ_cpp_oop; sourceTree = BUILT_PRODUCTS_DIR; };
 		64220DCA280B175D00426E63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6458B894281D729A00FE8307 /* hm1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hm1.cpp; sourceTree = "<group>"; };
+		6458B895281D729A00FE8307 /* hm1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hm1.hpp; sourceTree = "<group>"; };
+		6458B897281D733500FE8307 /* l1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = l1.cpp; sourceTree = "<group>"; };
+		6458B898281D733500FE8307 /* l1.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = l1.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				64220DCA280B175D00426E63 /* main.cpp */,
+				6458B894281D729A00FE8307 /* hm1.cpp */,
+				6458B895281D729A00FE8307 /* hm1.hpp */,
+				6458B897281D733500FE8307 /* l1.cpp */,
+				6458B898281D733500FE8307 /* l1.hpp */,
 			);
 			path = educ_cpp_oop;
 			sourceTree = "<group>";
@@ -89,7 +99,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1340;
 				TargetAttributes = {
 					64220DC6280B175D00426E63 = {
 						CreatedOnToolsVersion = 13.3.1;
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6458B899281D733500FE8307 /* l1.cpp in Sources */,
+				6458B896281D729A00FE8307 /* hm1.cpp in Sources */,
 				64220DCB280B175D00426E63 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,6 +250,7 @@
 		64220DCF280B175D00426E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -246,6 +259,7 @@
 		64220DD0280B175D00426E63 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
